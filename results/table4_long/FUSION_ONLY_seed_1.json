@@ -1,0 +1,62 @@
+{
+  "variant": "FUSION_ONLY",
+  "seed": 1,
+  "accuracy_matrix": [
+    [
+      86.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      78.3,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      82.4,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.2,
+      79.3,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      82.7
+    ]
+  ],
+  "average_final_accuracy": 16.54,
+  "plasticity": 81.85999999999999,
+  "forgetting": 81.64999999999999,
+  "std_final_tasks": 33.08,
+  "min_final_task": 0.0,
+  "task_last_accuracy": 82.7,
+  "per_task_final": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    82.7
+  ],
+  "params_total": 13987729,
+  "novelty_trajectory": {
+    "5": {
+      "novelty": 0.0,
+      "realised_rank": 0,
+      "expansion_dim": 0
+    }
+  }
+}

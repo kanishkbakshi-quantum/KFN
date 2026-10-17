@@ -1,0 +1,30 @@
+{
+  "method": "Replay+",
+  "seed": 4,
+  "A_A_init_TA": 45.1,
+  "A_B_init_TA": 75.62,
+  "A_A_final_CIL": 4.56,
+  "A_B_final_CIL": 75.26,
+  "avg_CIL": 39.910000000000004,
+  "cil_retention": 10.110864745011085,
+  "forgetting_TA": 40.54,
+  "accuracy_matrix_CIL": [
+    [
+      73.76,
+      0.0
+    ],
+    [
+      4.56,
+      75.26
+    ]
+  ],
+  "ta_final": {
+    "1": 45.1,
+    "2": 75.62
+  },
+  "replay_bytes": {
+    "images": 2000,
+    "bytes": 24576000,
+    "mib": 23.44
+  }
+}

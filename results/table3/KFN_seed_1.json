@@ -1,0 +1,44 @@
+{
+  "method": "KFN",
+  "seed": 1,
+  "A_A_init_TA": 58.4,
+  "A_B_init_TA": 66.56,
+  "A_A_final_CIL": 42.94,
+  "A_B_final_CIL": 60.24,
+  "avg_CIL": 51.59,
+  "cil_retention": 73.52739726027397,
+  "forgetting_TA": 15.46,
+  "accuracy_matrix_CIL": [
+    [
+      71.56,
+      0.0
+    ],
+    [
+      42.94,
+      60.24
+    ]
+  ],
+  "ta_final": {
+    "1": 58.4,
+    "2": 66.56
+  },
+  "novelty_task2": {
+    "novelty": 0.7407547831535339,
+    "realised_rank": 32,
+    "n_ref": 250,
+    "n_basis": 32,
+    "singular_values_top5": [
+      3.597717,
+      1.764078,
+      1.618322,
+      1.499038,
+      1.329417
+    ]
+  },
+  "expansion_dim_task2": 64,
+  "replay_bytes": {
+    "images": 2000,
+    "bytes": 24576000,
+    "mib": 23.44
+  }
+}

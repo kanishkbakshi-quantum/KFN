@@ -1,0 +1,30 @@
+{
+  "method": "LwF++",
+  "seed": 0,
+  "A_A_init_TA": 71.16,
+  "A_B_init_TA": 72.64,
+  "A_A_final_CIL": 2.16,
+  "A_B_final_CIL": 72.64,
+  "avg_CIL": 37.4,
+  "cil_retention": 3.0354131534569984,
+  "forgetting_TA": 69.0,
+  "accuracy_matrix_CIL": [
+    [
+      73.24,
+      0.0
+    ],
+    [
+      2.16,
+      72.64
+    ]
+  ],
+  "ta_final": {
+    "1": 71.16,
+    "2": 72.64
+  },
+  "replay_bytes": {
+    "images": 2000,
+    "bytes": 24576000,
+    "mib": 23.44
+  }
+}
