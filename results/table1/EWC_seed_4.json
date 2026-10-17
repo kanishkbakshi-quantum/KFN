@@ -1,0 +1,30 @@
+{
+  "method": "EWC",
+  "seed": 4,
+  "A_A_init_TA": 31.16,
+  "A_B_init_TA": 97.26,
+  "A_A_final_CIL": 0.0,
+  "A_B_final_CIL": 97.26,
+  "avg_CIL": 48.63,
+  "cil_retention": 0.0,
+  "forgetting_TA": 31.16,
+  "accuracy_matrix_CIL": [
+    [
+      94.24,
+      0.0
+    ],
+    [
+      0.0,
+      97.26
+    ]
+  ],
+  "ta_final": {
+    "1": 31.16,
+    "2": 97.26
+  },
+  "replay_bytes": {
+    "images": 0,
+    "bytes": 0,
+    "mib": 0.0
+  }
+}

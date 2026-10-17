@@ -1,0 +1,214 @@
+{
+  "aggregate": {
+    "n_seeds": 5,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "full_retrain_time_s": {
+      "mean": 1032.1023834705352,
+      "std": 69.85438203026946,
+      "n": 5
+    },
+    "full_retrain_mem_mb": {
+      "mean": 1260.1328125,
+      "std": 0.0,
+      "n": 5
+    },
+    "kfn_time_s": {
+      "mean": 1129.295413684845,
+      "std": 27.815989848134475,
+      "n": 5
+    },
+    "kfn_mem_mb": {
+      "mean": 792.5564453125,
+      "std": 0.024999999999999998,
+      "n": 5
+    },
+    "speedup": {
+      "mean": 0.9159002385710767,
+      "std": 0.08265004530025706,
+      "n": 5
+    },
+    "mem_reduction_pct": {
+      "mean": 37.105324339572334,
+      "std": 0.00198391786579748,
+      "n": 5
+    },
+    "phase2_pct": {
+      "mean": 5.575282482417775,
+      "std": 0.7531908695327336,
+      "n": 5
+    },
+    "phase3_pct": {
+      "mean": 84.24705165435999,
+      "std": 1.862217939992148,
+      "n": 5
+    },
+    "phase4_pct": {
+      "mean": 0.09228237594132017,
+      "std": 0.00665801897350394,
+      "n": 5
+    }
+  },
+  "raw": [
+    {
+      "seed": 0,
+      "device": "cuda",
+      "full_retrain": {
+        "time_s": 1131.6410250663757,
+        "peak_mem_mb": 1260.1328125,
+        "params": 5603025
+      },
+      "kfn": {
+        "time_s": 1103.3426249027252,
+        "peak_mem_mb": 792.6064453125,
+        "speedup": 1.0256478808349723,
+        "mem_reduction_pct": 37.10135650384074,
+        "phase_times_s": {
+          "phase1": 98.84929132461548,
+          "phase2": 59.736003398895264,
+          "phase3": 943.5927259922028,
+          "phase4": 1.0004966259002686
+        },
+        "phase3_pct": 85.52127912899164,
+        "phase2_pct": 5.4140936868238745,
+        "phase4_pct": 0.0906786888604504,
+        "novelty_task2": {
+          "novelty": 0.0,
+          "realised_rank": 0,
+          "n_ref": 255,
+          "n_basis": 0
+        },
+        "expansion_dim_task2": 0
+      }
+    },
+    {
+      "seed": 1,
+      "device": "cuda",
+      "full_retrain": {
+        "time_s": 997.5782563686371,
+        "peak_mem_mb": 1260.1328125,
+        "params": 5603025
+      },
+      "kfn": {
+        "time_s": 1141.05783700943,
+        "peak_mem_mb": 792.5439453125,
+        "speedup": 0.8742573987162343,
+        "mem_reduction_pct": 37.106316298505234,
+        "phase_times_s": {
+          "phase1": 126.9351155757904,
+          "phase2": 60.356496810913086,
+          "phase3": 952.4645299911499,
+          "phase4": 1.1662812232971191
+        },
+        "phase3_pct": 83.47206417576874,
+        "phase2_pct": 5.289521254163586,
+        "phase4_pct": 0.10221052653683152,
+        "novelty_task2": {
+          "novelty": 0.0,
+          "realised_rank": 0,
+          "n_ref": 255,
+          "n_basis": 0
+        },
+        "expansion_dim_task2": 0
+      }
+    },
+    {
+      "seed": 2,
+      "device": "cuda",
+      "full_retrain": {
+        "time_s": 1021.4708473682404,
+        "peak_mem_mb": 1260.1328125,
+        "params": 5603025
+      },
+      "kfn": {
+        "time_s": 1121.1466369628906,
+        "peak_mem_mb": 792.5439453125,
+        "speedup": 0.911094778944648,
+        "mem_reduction_pct": 37.106316298505234,
+        "phase_times_s": {
+          "phase1": 103.38512706756592,
+          "phase2": 56.27791666984558,
+          "phase3": 960.2534801959991,
+          "phase4": 1.0850121974945068
+        },
+        "phase3_pct": 85.64923164709836,
+        "phase2_pct": 5.019674930506735,
+        "phase4_pct": 0.09677701040371761,
+        "novelty_task2": {
+          "novelty": 0.0,
+          "realised_rank": 0,
+          "n_ref": 255,
+          "n_basis": 0
+        },
+        "expansion_dim_task2": 0
+      }
+    },
+    {
+      "seed": 3,
+      "device": "cuda",
+      "full_retrain": {
+        "time_s": 1081.4175384044647,
+        "peak_mem_mb": 1260.1328125,
+        "params": 5603025
+      },
+      "kfn": {
+        "time_s": 1103.4459125995636,
+        "peak_mem_mb": 792.5439453125,
+        "speedup": 0.9800367431302517,
+        "mem_reduction_pct": 37.106316298505234,
+        "phase_times_s": {
+          "phase1": 100.6670434474945,
+          "phase2": 56.24686336517334,
+          "phase3": 945.4064695835114,
+          "phase4": 0.9807918071746826
+        },
+        "phase3_pct": 85.67764480238696,
+        "phase2_pct": 5.097382909567686,
+        "phase4_pct": 0.08888444788961834,
+        "novelty_task2": {
+          "novelty": 0.0,
+          "realised_rank": 0,
+          "n_ref": 255,
+          "n_basis": 0
+        },
+        "expansion_dim_task2": 0
+      }
+    },
+    {
+      "seed": 4,
+      "device": "cuda",
+      "full_retrain": {
+        "time_s": 928.4042501449585,
+        "peak_mem_mb": 1260.1328125,
+        "params": 5603025
+      },
+      "kfn": {
+        "time_s": 1177.4840569496155,
+        "peak_mem_mb": 792.5439453125,
+        "speedup": 0.7884643912292775,
+        "mem_reduction_pct": 37.106316298505234,
+        "phase_times_s": {
+          "phase1": 140.4469177722931,
+          "phase2": 83.0802092552185,
+          "phase3": 952.7616782188416,
+          "phase4": 0.975677490234375
+        },
+        "phase3_pct": 80.91503851755424,
+        "phase2_pct": 7.055739631026996,
+        "phase4_pct": 0.08286120601598296,
+        "novelty_task2": {
+          "novelty": 0.0,
+          "realised_rank": 0,
+          "n_ref": 255,
+          "n_basis": 0
+        },
+        "expansion_dim_task2": 0
+      }
+    }
+  ]
+}

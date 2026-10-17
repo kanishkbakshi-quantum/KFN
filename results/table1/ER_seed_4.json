@@ -1,0 +1,30 @@
+{
+  "method": "ER",
+  "seed": 4,
+  "A_A_init_TA": 67.4,
+  "A_B_init_TA": 97.22,
+  "A_A_final_CIL": 6.22,
+  "A_B_final_CIL": 96.82,
+  "avg_CIL": 51.519999999999996,
+  "cil_retention": 9.228486646884273,
+  "forgetting_TA": 61.18000000000001,
+  "accuracy_matrix_CIL": [
+    [
+      94.24,
+      0.0
+    ],
+    [
+      6.22,
+      96.82
+    ]
+  ],
+  "ta_final": {
+    "1": 67.4,
+    "2": 97.22
+  },
+  "replay_bytes": {
+    "images": 200,
+    "bytes": 2457600,
+    "mib": 2.34
+  }
+}

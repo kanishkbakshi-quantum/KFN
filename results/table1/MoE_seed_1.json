@@ -1,0 +1,30 @@
+{
+  "method": "MoE",
+  "seed": 1,
+  "A_A_init_TA": 60.36,
+  "A_B_init_TA": 97.16,
+  "A_A_final_CIL": 0.48,
+  "A_B_final_CIL": 97.16,
+  "avg_CIL": 48.82,
+  "cil_retention": 0.7952286282306164,
+  "forgetting_TA": 59.88,
+  "accuracy_matrix_CIL": [
+    [
+      92.36,
+      0.0
+    ],
+    [
+      0.48,
+      97.16
+    ]
+  ],
+  "ta_final": {
+    "1": 60.36,
+    "2": 97.16
+  },
+  "replay_bytes": {
+    "images": 200,
+    "bytes": 2457600,
+    "mib": 2.34
+  }
+}

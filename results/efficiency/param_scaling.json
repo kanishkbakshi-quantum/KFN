@@ -1,0 +1,464 @@
+{
+  "raw": [
+    {
+      "seed": 0,
+      "param_history": [
+        {
+          "task": 1,
+          "P_total": 2802577,
+          "P_shared": 10448,
+          "P_cls": 641,
+          "P_specialists_total": 2791488,
+          "P_specialist_each": 2791488,
+          "P_fusion": 0,
+          "n_specialists": 1,
+          "replay": {
+            "images": 200,
+            "bytes": 2457600,
+            "mib": 2.34
+          }
+        },
+        {
+          "task": 2,
+          "P_total": 5756562,
+          "P_shared": 14608,
+          "P_cls": 2561,
+          "P_specialists_total": 5582976,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 2,
+          "replay": {
+            "images": 400,
+            "bytes": 4915200,
+            "mib": 4.69
+          }
+        },
+        {
+          "task": 3,
+          "P_total": 8553490,
+          "P_shared": 18768,
+          "P_cls": 3841,
+          "P_specialists_total": 8374464,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 3,
+          "replay": {
+            "images": 600,
+            "bytes": 7372800,
+            "mib": 7.03
+          }
+        },
+        {
+          "task": 4,
+          "P_total": 11350418,
+          "P_shared": 22928,
+          "P_cls": 5121,
+          "P_specialists_total": 11165952,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 4,
+          "replay": {
+            "images": 800,
+            "bytes": 9830400,
+            "mib": 9.38
+          }
+        },
+        {
+          "task": 5,
+          "P_total": 14147346,
+          "P_shared": 27088,
+          "P_cls": 6401,
+          "P_specialists_total": 13957440,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 5,
+          "replay": {
+            "images": 1000,
+            "bytes": 12288000,
+            "mib": 11.72
+          }
+        },
+        {
+          "task": 6,
+          "P_total": 16944274,
+          "P_shared": 31248,
+          "P_cls": 7681,
+          "P_specialists_total": 16748928,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 6,
+          "replay": {
+            "images": 1200,
+            "bytes": 14745600,
+            "mib": 14.06
+          }
+        },
+        {
+          "task": 7,
+          "P_total": 19741202,
+          "P_shared": 35408,
+          "P_cls": 8961,
+          "P_specialists_total": 19540416,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 7,
+          "replay": {
+            "images": 1400,
+            "bytes": 17203200,
+            "mib": 16.41
+          }
+        },
+        {
+          "task": 8,
+          "P_total": 22538130,
+          "P_shared": 39568,
+          "P_cls": 10241,
+          "P_specialists_total": 22331904,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 8,
+          "replay": {
+            "images": 1600,
+            "bytes": 19660800,
+            "mib": 18.75
+          }
+        },
+        {
+          "task": 9,
+          "P_total": 25335058,
+          "P_shared": 43728,
+          "P_cls": 11521,
+          "P_specialists_total": 25123392,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 9,
+          "replay": {
+            "images": 1800,
+            "bytes": 22118400,
+            "mib": 21.09
+          }
+        },
+        {
+          "task": 10,
+          "P_total": 28131986,
+          "P_shared": 47888,
+          "P_cls": 12801,
+          "P_specialists_total": 27914880,
+          "P_specialist_each": 2791488,
+          "P_fusion": 156417,
+          "n_specialists": 10,
+          "replay": {
+            "images": 2000,
+            "bytes": 24576000,
+            "mib": 23.44
+          }
+        }
+      ],
+      "task_records": [
+        {
+          "task": 1,
+          "novelty": {
+            "novelty": 0.0,
+            "realised_rank": 0,
+            "n_ref": 250
+          },
+          "expansion_dim": 0,
+          "avg_acc": 85.2
+        },
+        {
+          "task": 2,
+          "novelty": {
+            "novelty": 0.7095840573310852,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              3.038881,
+              2.271441,
+              2.105773,
+              1.925005,
+              1.634447
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 53.7
+        },
+        {
+          "task": 3,
+          "novelty": {
+            "novelty": 0.6985085010528564,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              2.233409,
+              2.165847,
+              1.924467,
+              1.834082,
+              1.760247
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 47.53333333333333
+        },
+        {
+          "task": 4,
+          "novelty": {
+            "novelty": 0.6951415538787842,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              2.122143,
+              2.001686,
+              1.81158,
+              1.581987,
+              1.505266
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 37.625
+        },
+        {
+          "task": 5,
+          "novelty": {
+            "novelty": 0.725016713142395,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              2.157837,
+              1.996966,
+              1.677026,
+              1.59898,
+              1.546988
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 32.660000000000004
+        },
+        {
+          "task": 6,
+          "novelty": {
+            "novelty": 0.702788770198822,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              2.083034,
+              1.901336,
+              1.702788,
+              1.601756,
+              1.522103
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 30.583333333333332
+        },
+        {
+          "task": 7,
+          "novelty": {
+            "novelty": 0.6981217861175537,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              2.104238,
+              1.842991,
+              1.760054,
+              1.627891,
+              1.524073
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 27.5
+        },
+        {
+          "task": 8,
+          "novelty": {
+            "novelty": 0.7087761759757996,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              1.894983,
+              1.854181,
+              1.69401,
+              1.612275,
+              1.430317
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 26.099999999999998
+        },
+        {
+          "task": 9,
+          "novelty": {
+            "novelty": 0.6935460567474365,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              1.907694,
+              1.845279,
+              1.648209,
+              1.520288,
+              1.440786
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 25.477777777777774
+        },
+        {
+          "task": 10,
+          "novelty": {
+            "novelty": 0.6834357380867004,
+            "realised_rank": 32,
+            "n_ref": 250,
+            "n_basis": 32,
+            "singular_values_top5": [
+              1.794551,
+              1.688169,
+              1.636725,
+              1.531121,
+              1.47685
+            ]
+          },
+          "expansion_dim": 64,
+          "avg_acc": 21.78
+        }
+      ],
+      "accuracy_matrix": [
+        [
+          85.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          30.5,
+          76.9,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          34.8,
+          31.4,
+          76.4,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          35.4,
+          14.8,
+          26.0,
+          74.3,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          28.5,
+          18.2,
+          23.4,
+          20.7,
+          72.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          25.1,
+          19.5,
+          26.5,
+          22.4,
+          16.2,
+          73.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          24.7,
+          18.1,
+          20.0,
+          17.2,
+          16.9,
+          18.9,
+          76.7,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          24.6,
+          18.2,
+          23.5,
+          18.8,
+          19.7,
+          23.7,
+          13.8,
+          66.5,
+          0.0,
+          0.0
+        ],
+        [
+          22.4,
+          15.9,
+          27.1,
+          19.2,
+          17.8,
+          16.5,
+          19.3,
+          19.7,
+          71.4,
+          0.0
+        ],
+        [
+          19.7,
+          13.8,
+          23.5,
+          13.5,
+          18.1,
+          13.8,
+          17.8,
+          15.1,
+          10.8,
+          71.7
+        ]
+      ],
+      "final_avg_acc": 21.78,
+      "final_params": 28131986,
+      "linear_check": {
+        "P_1": 2802577,
+        "P_10": 28131986,
+        "specialist_each": 2791488,
+        "expected_linear_P_10": 27925969,
+        "linear_lower_bound_satisfied": true
+      }
+    }
+  ]
+}
